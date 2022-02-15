@@ -1,11 +1,11 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-static char font[] = "JetBrainsMono Nerd Font:style:medium:pixelsize=13";
-static char *normbgcolor = "#272A2B";
+static char font[] = "CaskaydiaCove Nerd Font:style:bold:pixelsize=12";
+static char *normbgcolor = "#1B1F27";
 static char *normfgcolor = "#cccccc";
-static char *selbgcolor = "#1d2021";
-static char *selfgcolor = "#ffffff";
+static char *selbgcolor = "#282c34";
+static char *selfgcolor = "#abb2bf";
 static char *urgbgcolor = "#272A2B";
 static char *urgfgcolor = "#cc0000";
 static char before[] = "";
@@ -14,7 +14,7 @@ static char titletrim[] = "...";
 static int tabwidth = 200;
 static const foreground = True;
 static Bool urgentswitch = False;
-static int barheight = 30;
+static int barheight = 12;
 
 /*
  * Xresources preferences to load at startup
@@ -78,7 +78,7 @@ static Key keys[] = {
     {MODKEY, XK_9, move, {.i = 8}},
     {MODKEY, XK_0, move, {.i = 9}},
 
-    {MODKEY, XK_q, killclient, {0}},
+    {MODKEY | ShiftMask, XK_q, killclient, {0}},
 
     {MODKEY, XK_u, focusurgent, {0}},
     {MODKEY | ShiftMask, XK_u, toggle, {.v = (void *)&urgentswitch}},

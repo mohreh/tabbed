@@ -16,17 +16,19 @@ See the man page for details.
 
 # Screenshots
 
-<img src="https://cdn.discordapp.com/attachments/610012463907209227/803169215690965043/unknown.png">
+<img src="https://ik.imagekit.io/mohreh/GitHub_Media/alacritty-tabbed_Pqf4geX7F.png?ik-sdk-version=javascript-1.4.3&updatedAt=1644959698796">
 
 # Quick use
 
-     open ST terminal with tabbed mode :  tabbed -c -r 2 st -w ""  (make a keybind for this)
+     open alacritty terminal with tabbed mode :  "tabbed alacritty --embed"  (make a keybind for this)
 
      open new tab : Ctrl + shift + enter <br>
 
+     to keep a single instance of opened terminal u can use this command in ur keybinds : "wmctrl -x -a "tabbed" || tabbed alacritty --embed"
+
 check the config.h for few more keybinds
 
-- NOTE : tabs will open appear only if more than one ST window is opened .
+- NOTE : tabs will open appear only if more than one alacritty window is opened .
 - customize tabbed colors via xresources
 
 ```
