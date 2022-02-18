@@ -2,10 +2,10 @@
 
 /* appearance */
 static char font[] = "CaskaydiaCove Nerd Font:style:bold:pixelsize=12";
-static char *normbgcolor = "#1B1F27";
-static char *normfgcolor = "#cccccc";
-static char *selbgcolor = "#282c34";
-static char *selfgcolor = "#abb2bf";
+static char *normbgcolor = "#20262c";
+static char *normfgcolor = "#565c62";
+static char *selbgcolor = "#1a2026";
+static char *selfgcolor = "#b0b0b0";
 static char *urgbgcolor = "#272A2B";
 static char *urgfgcolor = "#cc0000";
 static char before[] = "";
